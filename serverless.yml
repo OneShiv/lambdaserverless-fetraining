@@ -2,12 +2,16 @@ service: serverless
 
 provider:
   name: aws
-  runtime: nodejs8.10
-  profile: femasters
-  region: us-west-1
-  stage: dev
+  runtime: nodejs12.3
+  profile: OneShiv
 
 plugins:
   - serverless-offline
+
+functions:
+  helloworld:
+    handler: src/helloworld.handler
+  newhello:
+    handler: src/helloworld.newhello
 
     
