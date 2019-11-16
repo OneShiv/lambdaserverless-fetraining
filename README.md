@@ -16,3 +16,5 @@ This course has a video component on FrontEnd Masters. It follows the video clos
 ### AWS
 You must have an AWS account for this to work. Don't worry, its free! After you have an account, you need to make a new user. Follow the instructions here: [Creating AWS Access Keys](https://serverless.com/framework/docs/providers/aws/guide/intro#creating-aws-access-keys)
 **Be sure** to setup your API credentials in your environment as well, [learn how](https://serverless.com/framework/docs/providers/aws/guide/credentials#using-aws-access-keys)
+
+Some notes to be added here.
