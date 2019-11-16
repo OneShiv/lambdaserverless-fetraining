@@ -11,6 +11,11 @@ plugins:
   - serverless-offline
 
 functions:  
+  api:
+    handler : index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY /{param+}'
   todos:
     handler: src/api/todos.handler
     events:
